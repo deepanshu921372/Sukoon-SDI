@@ -17,6 +17,7 @@ const Footer = () => {
       console.error('Error during logout:', error);
     }
   };
+  
 
   const toggleDuty = () => {
     setIsOnDuty(!isOnDuty);
