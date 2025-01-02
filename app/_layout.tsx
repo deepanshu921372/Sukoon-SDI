@@ -16,6 +16,7 @@ export default function Layout() {
         <Stack.Screen name="screens/CitizenPages/SosReporting" />
         <Stack.Screen name="info" options={{ title: 'Information' }} />
         <Stack.Screen name="screens/CitizenPages/Map" />
+        <Stack.Screen name="screens/PolicePages/Reporting" />
       </Stack>
       <Toast />
     </>
